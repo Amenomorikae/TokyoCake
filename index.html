@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <!-- CSSファイルの読み込み -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/skippr.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rowdies:wght@300&display=swap" rel="stylesheet">
   <title>TokyoCake</title>
 </head>
 <body>
 	<header>
-		<a href="index.html"><img src="img/TokyoCakeロゴsince.jpg" class="logo"></a>
+	 <a href="index.html"><img src="img/TokyoCakeロゴsince.jpg" class="logo"></a>
 		<ul class="header-menu">
 			<li><a name="top"></a></li>
 			<li><a href="#menu" class="btn">MENU</a></li>
@@ -20,9 +21,15 @@
 	</header>
 	<main>
 		<div class="main">
-			<div class="main-photo">
-				<img src="img/Tokyoケーキ用.jpg" class="photo">
+			<div class="container">
+				<div class="main-photo">
+					<img src="img/Tokyoケーキ用.jpg" class="photo" >
+					<img src="img/アパート.jpg" class="photo">
+				</div>
 			</div>
+			<script src="js/jquery.min.js"></script>
+	        <script src="js/skippr.min.js"></script>
+	        <script src="js/script.js"></script>
 			<div class="clearfix">
 				<div class="title">
 					<a name="menu" class="menu">MENU</a>
@@ -70,7 +77,14 @@
 					<p>予約受付時間：AM10:00 〜 PM5:00</p>
 				</div>
 			</div>
-		</div>
+			<span id="back">
+		      <a href="#">
+		        <img src="img/arrow.png" alt="">
+		      </a>
+			</span>
+			<script src="js/jquery.min.js"></script>
+	        <script src="js/skippr.min.js"></script>
+	        <script src="js/script.js"></script>
 		</div>
 	</main>
 	<footer>

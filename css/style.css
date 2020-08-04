@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+body {
+	background-color: #DBFDFF;
+}
+
+header {
+	width: 100%;
+	height: 140px;
+	background-color: #DBFDFF;
+}
+
+.logo{
+	height: 140px;
+	width: auto;
+}
+
+
+.header-menu {
+	float: right;
+	text-decoration: none;
+	padding: 65px 50px 10px 10px;
+}
+
+li {
+	float: left;
+	padding-right: 30px;
+	list-style: none;
+	font-family: 'Rowdies', cursive;
+	font-size: 20px;
+}
+
+li:last-child{
+	padding-right: 0;
+}
+
+.btn{
+	text-decoration: none;
+}
+
+.btn:hover{
+	color: #ABAD9D;
+}
+
+.container{
+	height: 600px;
+}
+
+.photo{
+	margin-top: 30px;
+	width: 100%;
+	height: 289px;
+	/*animation: fadeIn 1.5s ease 0s 1 normal;
+    -webkit-animation: fadeIn 1.5s ease 0s 1 normal;*/
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.clearfix{
+	width: 100%;
+	padding:110px 30px 70px 30px;
+}
+
+.title{
+	text-align: center;
+	font-family: 'Rowdies', cursive;
+	font-size: 30px;
+}
+
+
+.menu{
+	text-decoration: underline;
+	text-decoration-color: #787A6D;
+}
+
+.items{
+	width: 1070px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+
+.good{
+	float: left;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.good:last-child{
+	margin-right: 0;
+}
+
+p{
+	font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.ichigo{
+	width: 350px;
+	height: 350px;
+}
+
+.cookie{
+	width: 350px;
+	height: 350px;
+}
+
+.choco{
+	width: 350px;
+	height: 350px;
+}
+
+.clearfix::after{
+	content: "";
+    display: block;
+	clear: both;
+}
+
+.where{
+	width: 100%;
+	padding:40px 30px;
+	margin:0 auto;
+}
+
+.access{
+	text-decoration: underline;
+	text-decoration-color: #787A6D;
+}
+
+.navi{
+	width: 1070px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.map{
+	padding-top:50px;
+	width: 600px;
+	height: auto;
+}
+
+.contact{
+	text-decoration: underline;
+	text-decoration-color: #787A6D;
+}
+
+.mail{
+	width: 100%;
+	padding:40px 30px 100px 30px;
+	margin:0 auto;
+}
+
+.tel{
+	padding-top: 10px;
+	text-align: center;
+}
+
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+#back img {
+  width: 50px;
+}
+
+
+.footer{
+	width: 100%;
+	text-align: center;
+}
+
+.tokyodeco{
+	width: 280px;
+	height: auto;
+	float: left;
+}
+
+.footertokyo{
+	width: 600px;
+	height: auto;
+	margin:auto;
+}
+
+.tokyodeco2{
+	width: 280px;
+	height: auto;
+	float: right;
+}
+
+@media screen and (max-width:768px){
+
+	.header-menu{
+		padding:30px 50px 20px 10px;
+
+	}
+
+	li{
+		float: none;
+		padding-right: 0;
+	}
+
+	.container{
+	height: 300px;
+    }
+
+	.photo{
+		margin-top:0;
+		height: 100px;
+	}
+
+	.clearfix{
+		padding:100px 30px 50px 30px;
+	}
+
+	.items{
+		width: 100%;
+	}
+
+	.good{
+		float: none;
+		margin-right: 0;
+		text-align: center;
+		padding-top:30px;
+	}
+
+	.good:first-child{
+		padding-top: 0;
+	}
+
+	.navi{
+		width: 100%;
+	}
+
+	.map{
+		width: 400px;
+		height: auto;
+	}
+
+}
+
+@media screen and (max-width:425px){
+	.logo{
+		width: 100%;
+		height: auto;
+	}
+
+	.header-menu{
+		padding:10px 30px 20px 30px;
+	}
+
+	li{
+		float: left;
+		padding-right: 30px;
+	}
+
+	.clearfix{
+		padding:50px 30px 50px 30px;
+	}
+
+	.ichigo{
+		width: 315px;
+		height: 315px;
+	}
+
+	.cookie{
+		width: 315px;
+		height: 315px;
+	}
+
+	.choco{
+		width: 315px;
+		height: 315px;
+	}
+
+	.map{
+		width: 315px;
+		height: auto;
+	}
+
+	.footertokyo{
+		width: 100%;
+		height: auto;
+	}
+
+}
